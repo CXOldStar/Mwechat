@@ -38,5 +38,5 @@ class Adcode:
 
 if __name__ == '__main__':
 
-    data = Adcode.get('广东工业大学龙洞校区')
+    data = Adcode.get('饶平县')
     print(data.adcode)

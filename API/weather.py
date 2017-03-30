@@ -32,7 +32,7 @@ class Weather:
                                     weather_list.append(Weather.Forecast(i_weather))
                         else:
                             weather_data = response_data['lives']
-                            weather_list.append(Weather.Forecast(weather_data))
+                            weather_list = Weather.Lives(weather_data)
                     except KeyError as e:
                         print('ERROR: %s' % str(e))
                     else:
